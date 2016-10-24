@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start05": "node ./05-express-first-app/bin/www",
-    "start06": "node ./06-express-handlebar/bin/www"
+    "start06": "node ./06-express-handlebar/bin/www",
+    "start07": "node ./07-get-post/bin/www"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
