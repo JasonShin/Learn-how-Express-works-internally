@@ -6,11 +6,12 @@ var assert = require('assert');
 var url = 'mongodb://localhost:27017/test';
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', (req, res, next) => {
     res.render('index');
 });
 
-router.get('/get-data', function(req, res, next){
+
+router.get('/get-data', (req, res, next) => {
 
     var resultArray = [];
     mongo.connect(url, function(err, db) {
@@ -31,7 +32,7 @@ router.get('/get-data', function(req, res, next){
 
 });
 
-router.post('/insert-data', function(req, res, next) {
+router.post('/insert-data', (req, res, next) => {
 
     var item = {
         title: req.body.title,
@@ -52,11 +53,11 @@ router.post('/insert-data', function(req, res, next) {
 
 });
 
-router.post('/update-data', function(req, rest, next) {
+router.post('/update-data', (req, rest, next) => {
 
 });
 
-router.post('/delete-data', function(req, rest, next) {
+router.post('/delete-data', (req, rest, next) => {
 
 });
 
