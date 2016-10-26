@@ -1,4 +1,4 @@
-var express = require('express');
+import express from 'express';
 var router = express.Router();
 var db = require('monk')('localhost:27017/test');
 var userData = db.get('user-data');
