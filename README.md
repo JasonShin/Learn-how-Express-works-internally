@@ -8,3 +8,6 @@ https://medium.com/@Cuadraman/how-to-use-babel-for-production-5b95e7323c2f#.ijyr
 
 #Using babel in development
 https://egghead.io/lessons/node-js-using-es6-and-beyond-with-node-js
+
+#Use promise route to create routes in ES6 classes
+https://www.npmjs.com/package/express-promise-router
