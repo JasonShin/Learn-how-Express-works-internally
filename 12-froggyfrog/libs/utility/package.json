@@ -1,0 +1,5 @@
+{
+  "name": "utility",
+  "version": "0.0.1",
+  "main": "./model/utility"
+}
