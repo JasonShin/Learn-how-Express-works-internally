@@ -1,5 +1,5 @@
 {
-  "name": "05-express-first-app",
+  "name": "NodejsYoutube",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -22,6 +22,7 @@
     "express-handlebars": "^3.0.0",
     "express-session": "^1.14.1",
     "express-validator": "^2.20.10",
+    "grunt": "^1.0.1",
     "jade": "~1.11.0",
     "mongodb": "^1.4.1",
     "mongoose": "^4.6.5",

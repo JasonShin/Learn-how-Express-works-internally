@@ -1,0 +1,16 @@
+{
+  "name": "13-froggyfrogstore",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "*",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "*"
+  }
+}
